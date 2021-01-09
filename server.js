@@ -1,3 +1,4 @@
+// Variables and packages
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
@@ -9,14 +10,14 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use(logger("dev"));
-
+// Middleware
 app.use(compression());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-
+// Static to access files in public
 app.use(express.static("public"));
 
-
+// Connection to database
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
   useNewUrlParser: true,
   useUnifiedTopology: true,

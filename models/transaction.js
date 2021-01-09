@@ -1,7 +1,9 @@
+// Variables
 const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
+// Schema for database
 const transactionSchema = new Schema(
   {
     name: {

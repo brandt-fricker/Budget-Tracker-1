@@ -1,6 +1,8 @@
+// Variables
 let transactions = [];
 let myChart;
 
+// API call to get transactions
 fetch("/api/transaction")
   .then(response => {
     return response.json();
