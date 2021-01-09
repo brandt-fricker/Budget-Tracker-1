@@ -1,7 +1,7 @@
 # Budget-Tracker
 
 
-Workout-Tracker is an application  that gives users a fast and easy way to track their money and allows them to access that information anytime. Having offline functionality is paramount to our applications success..
+Budget-Tracker is an application  that gives users a fast and easy way to track their money and allows them to access that information anytime. Having offline functionality is paramount to our applications success..
 
 Checkout the [Deployed app here](https://budget-tracker-10.herokuapp.com/).
 
@@ -15,8 +15,11 @@ Checkout the [Deployed app here](https://budget-tracker-10.herokuapp.com/).
 
 ## Installation
 
-You don't need to install it, just simply go to this [Link](https://budget-tracker-10.herokuapp.com/) or, if your prefer, copy this link https://budget-tracker-10.herokuapp.com/ and paste in your browser.
+You can install this app on your device, just simply go to this [Link](https://budget-tracker-10.herokuapp.com/) or, if your prefer, copy this link https://budget-tracker-10.herokuapp.com/ and paste in your browser.
 
+You can download this application by clicking `+` sign on a right side of search bar in your browser
+
+![PWA](./public/assets/images/PWA.png)
 
 ## Usage
 
@@ -24,9 +27,6 @@ You don't need to install it, just simply go to this [Link](https://budget-track
 
 ![Demo](./public/assets/images/BudgetGif.gif)
 
-You can download this application by clicking `+` sign on a right side of search bar in your browser
-
-![PWA](./public/assets/images/PWA.png)
 
 
 * Description:
